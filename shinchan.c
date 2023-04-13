@@ -1,3 +1,9 @@
+/* gst-launch-1.0 filesrc location=/Users/siyao/Movies/why_I_left_China_for_Good.mp4 ! qtdemux ! decodebin ! videoconvert ! videoscale ! autovideosink */
+
+
+
+
+
 #include <gst/gst.h>
 
 int main(int argc, char *argv[])
