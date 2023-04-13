@@ -1,3 +1,6 @@
+/* gst-launch-1.0 -v filesrc location=test.mp4 ! qtdemux ! h264parse ! omxh264dec ! x264enc ! rtph264pay ! udpsink host=$HOST port=5000 */
+
+
 #include <gst/gst.h>
 
 /*structure to contain all our information , so we can pass it to call backs */
